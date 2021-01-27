@@ -1,29 +1,45 @@
 .header
-    background: #343536
+    background: #343536  
+
+    &__inner
+        display: flex
+    &__item
+        display: flex
+        flex: 1 1 33.333%
+        color: #ffffff
+.nav
+    &__list
+        display: flex
+        justify-content: flex-start
+    &__item
+        margin-right: 40px
+        list-style: none
+.logo
+    
+            
+            
+                      
+
+    
     
 
-.header__inner
-    display: flex
-    justify-content: space-between
-    align-items: center
-    height: 100px
-
-.nav
-    &__logo
-        margin: 0 20px
-    &__link
-        margin-right: 40px
-        display: inline-block
-        a
-            color: #ffffff
-            text-decoration: none 
-    &__menu-btn
-        background: none
-        border: none
-        color: #ffffff  
-        margin-right: 40px     
 .hero
     background: #979797 url("../img/bgc.jpg") no-repeat center
     background-size: cover
     min-height: 950px
+    text-align: center
+    color: #fff
+    &__title
+        +noto
+        font-size: 36px
+    &__btn
+        +medium
+        font-size: 18px
+        text-transform: uppercase
+        padding: 15px 35px
+        background: #333333
+        border: 1px solid #FFFFFF
+        color: #ffffff
+
+
 

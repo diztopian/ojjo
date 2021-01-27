@@ -36,34 +36,41 @@ body {
 .header {
   background: #343536;
 }
-
 .header__inner {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
+}
+.header__item {
+  display: flex;
+  flex: 1 1 33.333%;
+  color: #ffffff;
 }
 
-.nav__logo {
-  margin: 0 20px;
+.nav__list {
+  display: flex;
+  justify-content: flex-start;
 }
-.nav__link {
+.nav__item {
   margin-right: 40px;
-  display: inline-block;
-}
-.nav__link a {
-  color: #ffffff;
-  text-decoration: none;
-}
-.nav__menu-btn {
-  background: none;
-  border: none;
-  color: #ffffff;
-  margin-right: 40px;
+  list-style: none;
 }
 
 .hero {
   background: #979797 url("../img/bgc.jpg") no-repeat center;
   background-size: cover;
   min-height: 950px;
+  text-align: center;
+  color: #fff;
+}
+.hero__title {
+  font-family: "Noto Serif", serif;
+  font-size: 36px;
+}
+.hero__btn {
+  font-family: "Gilroy Medium", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  background: #333333;
+  border: 1px solid #FFFFFF;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
