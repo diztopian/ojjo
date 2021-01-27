@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url("../font/Gilroy-Regular.eot");
+  src: url("../font/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-Regular.woff") format("woff"), url("../font/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy Medium";
+  src: url("../font/Gilroy-Medium.eot");
+  src: url("../font/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-Medium.woff") format("woff"), url("../font/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy Semibold";
+  src: url("../font/Gilroy-SemiBold.eot");
+  src: url("../font/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-SemiBold.woff") format("woff"), url("../font/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gilroy Regular", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #343536;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.nav__logo {
+  margin: 0 20px;
+}
+.nav__link {
+  margin-right: 40px;
+  display: inline-block;
+}
+.nav__link a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav__menu-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  margin-right: 40px;
+}
+
+.hero {
+  background: #979797 url("../img/bgc.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 950px;
+}/*# sourceMappingURL=style.css.map */
