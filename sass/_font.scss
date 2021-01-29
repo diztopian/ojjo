@@ -30,16 +30,20 @@
         
 @mixin regular {
     font-family: 'Gilroy Regular', sans-serif;
+    font-weight: normal;
 }
 
 @mixin medium {
     font-family: 'Gilroy Medium', sans-serif;
+    font-weight: normal;
 }
 
 @mixin semi {
     font-family: 'Gilroy Semibold', sans-serif;
+    font-weight: normal;
 }
 
 @mixin noto {
     font-family: 'Noto Serif', serif;   
+    font-weight: normal;
 }
